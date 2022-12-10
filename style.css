@@ -257,13 +257,20 @@ i.fa:hover{
 		font-family: 'Open Sans';
 		color: white;
 		position: absolute;
-	  top: 50%;
-	  left: 70%;
-	  transform: translate(-50%, -350%);
+	 	top: 50%;
+	  	left: 70%;
+	  	transform: translate(-50%, -350%);
 	  }
-  h3{
-  	font-size: 1em;
-  }
+  	h3{
+  		font-size: 1em;
+ 	 }
+	  .desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
 
 }
 
