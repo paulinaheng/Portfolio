@@ -281,7 +281,7 @@ i.fa:hover{
 		position: absolute;
 	  top: 50%;
 	  left: 60%;
-	  transform: translate(-50%, -290%);
+	  transform: translate(-50%, -350%);
   }
   .desktop{
 		display: none;
