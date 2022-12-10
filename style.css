@@ -279,7 +279,7 @@ i.fa:hover{
 		font-family: 'Open Sans';
 		color: white;
 		position: absolute;
-	  top: 50%;
+	  top: 75%;
 	  left: 60%;
 	  transform: translate(-50%, -350%);
   }
