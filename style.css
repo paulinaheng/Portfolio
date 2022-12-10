@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+body{
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+}
+
+
+main{
+	font-family: 'Open sans';
+	margin: 0px auto;
+	max-width: 1200px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.hr-index{
+	margin: 60px auto;
+ 	border: 0;
+  height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+
+h1{
+	font-family: 'Roboto',sans-serif;
+	font-size: 4em;
+}
+h2{
+	font-size: 2em;
+}
+.header-h1{
+	color: white;
+}
+
+
+
+
+/*Header image & Text*/
+.hero-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/rice.jpg");
+	background-size: cover;
+	min-height: 550px;
+}
+.image-text{
+	font-family: 'Open Sans';
+	color: white;
+	position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -120%);
+}
+.header-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/rice.jpg");
+	background-size: cover;
+	min-height: 200px;
+	border-bottom: 3px solid lightgrey;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: lightgrey;
+}
+
+/* 3wschools Link */
+.schools a{
+	color: black;
+}
+.schools a:hover{
+	color: green;
+}
+
+
+/* Nav CSS */
+nav{
+	padding-top: 30px;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a:link{
+	color: white;
+	text-decoration: none;
+}
+nav a:visited{
+	color: burlywood;
+}
+nav a:hover{
+	color: white;
+	text-shadow: 2px 2px 5px white;
+}
+nav a:active{
+	color: white;
+}
+
+
+/* Resume Wrapper */
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  min-width: 200px;
+  max-width: 1024px;
+  padding-bottom: 40px;
+}
+
+canvas {
+  border:2px solid white;
+  background-image: url(images/waterlily.jpg);
+  background-color: #f1f1f1;
+  box-shadow: 10px 10px 5px green;
+  margin-bottom: 20px;
+}
+
+
+/*Footer CSS*/
+footer{
+	text-align: center;
+	border-top: 1px solid black;
+	text-decoration: none;
+	background-color: #2a3532;
+	padding-top: 30px;
+	color: white;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: black;
+}
+.footer-bottom{
+	background-color: black;
+	color: white;
+	margin-top: 15px;
+}
+
+
+/*Gallery CSS*/
+.gallery .preview{
+  width:100%;
+  height: auto;
+  margin: 15px;
+}
+.gallery .gallery-thumbnails img {
+  width:100px;
+  height:75px;
+  margin: 3px 10px 10px 0;
+  box-shadow: 5px 5px 15px 2px #666666;
+}
+.gallery .gallery-thumbnails img:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+.gallery .preview img#preview {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+  box-shadow: 5px 5px 15px 2px #666666;
+}
+
+
+.about-text{
+	padding-top: 30px;
+}
+.mario{
+	padding-top: 20px;
+	border-radius: 50% 50%;
+	min-height: 300px;
+}
+
+.big-3{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.myButton{
+	background-color: #838d3a;
+  padding: 11px 20px;
+  border-radius: 9px 3px;
+  border: 2px solid white;
+  color: white;
+}
+.myButton:hover{
+	background-color: #2a3532;
+}
+
+
+/* Icons CSS */
+.fa-pagelines, .fa-certificate, .fa-image, .fa-gamepad{
+	font-size: 4em;
+	padding: 5px;
+}
+i.fa:hover{
+	color: black;
+}
+.fa-linkedin-square, .fa-github-alt, .fa-envelope{
+	font-size: 2em;
+}
+
+
+/* Portfolio Image */
+.example{
+	padding: 5px;
+	box-shadow: 5px 5px 15px 2px #666666;
+}
+.example:hover{
+	opacity: 0.6;
+}
+
+.photo{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/* Email link */
+.email a{
+	color: black;
+}
+.email a:hover{
+	color: green;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+.mobile{
+	display: none;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+	.hero-image{
+		min-height:300px;
+	}
+	.image-text{
+		font-family: 'Open Sans';
+		color: white;
+		position: absolute;
+	  top: 50%;
+	  left: 70%;
+	  transform: translate(-50%, -350%);
+	  }
+  h3{
+  	font-size: 1em;
+  }
+
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	h3{
+		font-size: 1em;
+	}
+	.image-text{
+		font-family: 'Open Sans';
+		color: white;
+		position: absolute;
+	  top: 50%;
+	  left: 60%;
+	  transform: translate(-50%, -290%);
+  }
+  .desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+
+}
+
+

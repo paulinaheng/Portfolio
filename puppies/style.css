@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+	font-family: 'Nunito Sans',sans-serif;
+	margin: 0;
+	background-color:#C5C9C7;
+	
+}
+
+header{
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+
+}
+
+a{
+	color: white;
+}
+
+h1{
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	font-size: 4em;
+}
+main{
+	font-family: 'Quicksand';
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+nav{
+	background-color: black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	color: white;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 10px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a:link{
+	color: white;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:hover{
+	color: white;
+}
+
+nav a:active{
+	color: white;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid black;
+	padding: 40px;
+	background-color: #333300;
+	color: white;
+	
+}
+
+img{
+	border-radius: 50%;
+	box-shadow: 5px 5px black;
+	margin-bottom: 10px;
+
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+	margin: 20px;
+	text-shadow: 2px 2px 5px #333300;
+	border-radius: 20px 80px 20px 80px;
+	box-shadow: 10px 10px black;
+
+}
+blockquote{
+	padding-left: 100px;
+	
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+

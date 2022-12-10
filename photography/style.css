@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Archivo:wght@900&family=Roboto:wght@100&family=Roboto:wght@900&display=swap');
+
+
+header{
+	background-color: #c3cfda;
+	padding: 20px;
+
+}
+
+body{
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+}
+
+h1{
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+	color
+
+}
+main{
+	font-family: 'Open sans';
+	margin: 20px auto;
+	max-width: 1200px;
+}
+
+nav{
+	background-color: #3f5161;
+	border-bottom: 2px solid white;
+	text-align: center;
+	padding: 10px;
+
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 10px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a:link{
+	color: #e1e7ec;
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: lightblue;
+}
+
+nav a:hover{
+	color: white;
+	text-shadow: 4px 4px 4px black;	
+}
+
+nav a:active{
+	color: white;
+}
+
+footer{
+	background-color: #666666;
+	margin: 40px 0 0 0;
+	display: block;
+	padding-left: 90px;
+	color: white;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.gallery .preview{
+    width:100%;
+    height: auto;
+    margin: 15px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+    box-shadow: 5px 5px 15px 2px #666666;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    box-shadow: 5px 5px 15px 2px #666666;
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+	margin-top: 20px;
+	box-shadow: 5px 5px 15px 2px #666666;
+	padding: 10px;
+
+}
+
+p{
+	text-align: left;
+}
+
+blockquote{
+	margin-top: 20px;
+}
+
+.fa{
+	color: black;
+
+}
+
+.fa-camera-retro{
+	font-size: 7em;
+	margin-left: 20px;
+	padding: 5px;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
