@@ -49,9 +49,9 @@ h2{
 	font-family: 'Open Sans';
 	color: white;
 	position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -120%);
+  	top: 55%;
+  	left: 70%;
+  	transform: translate(-50%, -120%);
 }
 .header-image{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/rice.jpg");
